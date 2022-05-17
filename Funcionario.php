@@ -11,7 +11,7 @@ class Funcionario extends Pessoa{
               echo "não teve alteração no salario.<br>";
         } else {
             $this->salario = $valor;
-            echo "Salario alterado<br>";
+            echo "Alteração Salarial<br>";
         }
         $this->mostraSalario();
     }
